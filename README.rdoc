@@ -1,0 +1,13 @@
+# Demo app for react-rails
+
+run rake db:seed to populate fake data
+
+Important Files
+
+the jsx file to build the search box in 
+app/assets/javasceipt/components/account_search.js.jsx
+
+the partial that renders the component
+app/views/shared/_account_search.html.haml
+
+this partial is currently rendered on the home page & account#index

@@ -1,0 +1,10 @@
+.row
+  .small-12.medium-4.large-6.columns.namelogo
+    %h1= link_to 'React+Rails Demo', root_path
+  .small-12.medium-8.large-6.columns
+    .nav-bar
+      %ul.button-group
+        %li
+          = link_to "My Book", accounts_path, class: 'button'
+        %li
+          %a.button{:href => "/about"} About
