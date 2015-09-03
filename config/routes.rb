@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  get 'accounts/search' =>  'accounts#search'
   resources :accounts
+  
   get 'about' => 'pages#about'
 
   # The priority is based upon order of creation: first created -> highest priority.

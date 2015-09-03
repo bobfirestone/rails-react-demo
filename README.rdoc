@@ -11,3 +11,7 @@ the partial that renders the component
 app/views/shared/_account_search.html.haml
 
 this partial is currently rendered on the home page & account#index
+
+
+ajaxing in data
+http://localhost:3000/accounts/search.json

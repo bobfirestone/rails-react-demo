@@ -8,6 +8,7 @@ class AccountsController < ApplicationController
   end
 
   def search
+    @accounts = Account.all.shuffle[0..4]
   end
   # GET /accounts/1
   # GET /accounts/1.json
